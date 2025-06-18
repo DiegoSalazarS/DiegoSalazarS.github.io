@@ -23,7 +23,7 @@ body{
 }
 
 .uni{
-    border: 10px red solid;
+    
 }
 
 .title{
@@ -56,10 +56,42 @@ body{
 
 }
 
+.title4{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: large;
+    text-align: start;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 90px;
+
+}
+
+.card-sub{
+    display: flex;
+    flex-direction: row;
+}
+
 .container{
     border-radius: 49px;
     background: #201A23;
     height: 300px;
+    margin-top: 25px;
+}
+
+.container2{
+    border-radius: 49px;
+    background: #201A23;
+    height: 500px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
 }
 
 
@@ -83,14 +115,7 @@ body{
 
 
 
-
-
-
-
-
-
-
-
+/* Footer */
 .footer{
     padding: 100px;
     display: flex;
