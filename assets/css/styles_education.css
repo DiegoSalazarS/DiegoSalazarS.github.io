@@ -73,7 +73,7 @@ body{
     text-align: start;
     font-weight: bold;
     padding-left: 40px;
-    padding-top: 90px;
+    padding-top: 70px;
 
 }
 
@@ -105,7 +105,7 @@ body{
 
 .title-cont{
     font-family: Montserrat, 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: greenyellow;
     font-weight: 300;
     font-size: large;
     text-align: center;
@@ -114,14 +114,19 @@ body{
 
 .subtitle-cont{
     font-family: Montserrat, 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: lightgray;
     font-weight: 200;
     font-size: small;
     font-weight: bold;
+    padding: 0px 30px;
 }
 
 
-
+.in-1{
+    display: flex;
+    display: row;
+    justify-content: space-between;
+}
 
 
 
