@@ -7,6 +7,11 @@
 
 }
 
+a{
+  text-decoration: none;
+  outline: none;
+}
+
 
 .subtitles{
     font-family: Montserrat, 'Times New Roman', Times, serif;
@@ -134,7 +139,6 @@ body{
 
 .profile-pic{
     display: flex;
-    border-bottom: 2px #2E2532 solid;
     color: white;
     padding: 350px 0px;
     align-items: center;
@@ -209,6 +213,7 @@ li{
 .hero-footer{
     display: flex;
     justify-content: space-between;
+    border-top: 2px #2E2532 solid;
 }
 
 .li-hover:hover{
