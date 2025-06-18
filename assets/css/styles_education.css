@@ -1,50 +1,7 @@
-.title{
-    font-family: Montserrat, 'Times New Roman', Times, serif;
-    color: whitesmoke;
-    font-weight: 900;
-    font-size: xx-large;
-    text-align: center;
-
-}
-
-a{
-  text-decoration: none;
-  outline: none;
-}
-
-
-.subtitles{
-    font-family: Montserrat, 'Times New Roman', Times, serif;
-    font-weight: 100;
-    display: flex;
-    justify-content: center;
-    font-size: x-small;
-    text-align: center;
-    margin-top: 0;
-
-}
-
-.subtitles2{
-    font-family: Montserrat, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    font-size: medium;
-    text-align: start;
-    margin-top: 0;
-    position: relative;
-    z-index: 3;
-    padding-bottom: 800px;
-    color: greenyellow;
-
-}
-
-body{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px;
+.navbar{
+    background-color: aqua;
+    border: 10px white solid;
+    padding: 40px;
 }
 
 .montserrat-<uniquifier> {
@@ -54,118 +11,6 @@ body{
   font-style: normal;
 }
 
-.sub-first{
-    margin: 3px;
-    color: lightgray;
-}
-
-.sub-second{
-    margin: 3px;
-    color: greenyellow;
-}
-
-#main-title{
-    margin: 20px;
-}
-
-.hero{
-    border-bottom: 2px #2E2532 solid;
-    padding: 200px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.navbar{
-    background-color: aqua;
-    border: 10px white solid;
-    padding: 40px;
-}
-
-#btn-project {
-  align-items: center;
-  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-  border: 0;
-  border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #ffffff;
-  display: flex;
-  font-size: 18px;
-  justify-content: center;
-  line-height: 1em;
-  max-width: 100%;
-  min-width: 140px;
-  padding: 3px;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-#btn-project:active,
-#btn-project:hover {
-  outline: 0;
-}
-
-#btn-project span {
-  background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
-  border-radius: 6px;
-  width: 100%;
-  height: 100%;
-  transition: 300ms;
-  font-weight: bold;
-  font-family: Montserrat, 'Times New Roman', Times, serif;
-}
-
-#btn-project:hover span {
-  background: none;
-}
-
-#btn-project:active {
-  transform: scale(0.9);
-}
-
-.btn-main{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-pic{
-    display: flex;
-    color: white;
-    padding: 350px 0px;
-    align-items: center;
-   font-family: Montserrat, 'Times New Roman', Times, serif;
-}
-
-#image-me {
-    width: 500px;
-    height: 600px;
-    position: absolute;
-    z-index: 2;
-    border-radius: 5%;
-}
-
-.card {
-    background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-    height: 700px;
-    width: 600px;
-    border-radius: 5%;
-    position: relative;
-    z-index: 1;
-    margin: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 li{
     font-family: Montserrat, 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -173,18 +18,133 @@ li{
     list-style-type: none;
 }
 
-.padding-ul{
-    padding: 10px 0px;
+body{
+    background-color: black;
 }
 
-.text-align{
+.images-cont{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding-top: 20px;
+
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: start;
+}
+
+.title2{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: start;
+    padding-top: 60px;
+    padding-left: 40px;
+
+}
+
+.title3{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 300;
+    font-style: italic;
+    font-size: large;
+    text-align: start;
+    padding-left: 40px;
+
+}
+
+.title4{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: large;
+    text-align: start;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 70px;
+
+}
+
+.card-sub{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    border-radius: 49px;
+    background: #201A23;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.container2{
+    border-radius: 49px;
+    background: #201A23;
+    height: 500px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.title-cont{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: greenyellow;
+    font-weight: 300;
+    font-size: large;
     text-align: center;
+    font-weight: bold;
 }
 
-#pp-goal{
-    margin: 20px;
+.subtitle-cont{
+    font-family: Montserrat, 'Times New Roman', Times, serif;
+    color: lightgray;
+    font-weight: 200;
+    font-size: small;
+    font-weight: bold;
+    padding: 0px 30px;
 }
 
+
+.in-1{
+    display: flex;
+    display: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 .footer{
     padding: 100px;
     display: flex;
