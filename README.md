@@ -96,6 +96,16 @@ README.md
 
 ---
 
+## Why This License Was Chosen
+
+I selected the **MIT License** because it:
+
+- **Maximizes freedom** for anyone who wants to use, modify, or share my code.  
+- **Maintains simplicity**—it’s short, easy to understand, and widely recognized in the open-source community.  
+- **Encourages adoption** by imposing minimal restrictions, making it ideal for a personal portfolio and demonstration projects.  
+
+---
+
 ## Credits
 
 - **Design Inspiration:** Uiverse.io, CSS Buttons, Neumorphism.io  
