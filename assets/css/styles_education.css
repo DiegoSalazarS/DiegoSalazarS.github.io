@@ -1,7 +1,70 @@
-.navbar{
-    background-color: aqua;
-    border: 10px white solid;
-    padding: 40px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0d0d0d;
+  padding: 0 40px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .logo {
+  color: greenyellow;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links a {
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .nav-links a:hover {
+  color: #ffffff;
+}
+
+.navbar .btn-download {
+  display: inline-block;
+  padding: 8px 20px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.navbar .btn-download:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.navbar .btn-download:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+  .navbar .nav-links {
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0;
+  }
 }
 
 .montserrat-<uniquifier> {
