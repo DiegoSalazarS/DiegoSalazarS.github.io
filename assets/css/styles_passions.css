@@ -82,6 +82,11 @@ body {
   color: whitesmoke;
 }
 
+.image-style{
+    width: 220px;
+    border-radius: 10%;
+}
+
 @media (max-width: 600px) {
   .section-title { font-size: 28px; }
   .passion-card { width: 100%; }
