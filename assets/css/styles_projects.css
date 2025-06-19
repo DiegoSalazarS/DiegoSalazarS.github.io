@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #ddd;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d0d0d;
+  padding: 0 40px;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.navbar .logo {
+  color: greenyellow;
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .nav-links a {
+  color: #ccc;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+
+.navbar .nav-links .active a,
+.navbar .nav-links a:hover {
+  color: #fff;
+}
+
+.navbar .nav-links .active a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: greenyellow;
+}
+
+.btn-download {
+  padding: 8px 20px;
+  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.coming-soon {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+.coming-soon::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(circle at center, #af40ff, #5b42f3, #00ddeb);
+  animation: rotateBg 20s linear infinite;
+  z-index: -1;
+}
+
+.coming-soon h1 {
+  font-size: 4rem;
+  color: greenyellow;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.coming-soon p {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+@keyframes rotateBg {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.hero-footer {
+  background: #0d0d0d;
+  padding: 60px 20px;
+  border-top: 1px solid #333;
+}
