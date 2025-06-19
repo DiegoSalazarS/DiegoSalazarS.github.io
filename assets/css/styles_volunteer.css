@@ -8,6 +8,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  outline: none;
+}
+
 .navbar .logo {
   color: greenyellow;
   font-size: 1.5rem;
