@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: greenyellow;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sub-title {
+  font-size: 28px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 60px 0 30px;
+}
+
+.passions-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.passion-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  box-shadow: 0 0 15px rgba(0, 255, 150, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+.passion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 255, 150, 0.25);
+}
+.passion-card .icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.passion-card h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.passion-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.bucket-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+.bucket-item {
+  text-align: center;
+}
+.image-placeholder {
+  background-color: #222;
+  border-radius: 10px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.bucket-item p {
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+  .section-title { font-size: 28px; }
+  .passion-card { width: 100%; }
+}
